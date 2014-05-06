@@ -1,3 +1,8 @@
+#ifndef _FIZZBUZZ_H_
+
+#define _FIZZBUZZ_H_
 #include <stdio.h>
 
-void fizzbuzz(int i_number);
+void FizzBuzz(int nNumber);
+
+#endif

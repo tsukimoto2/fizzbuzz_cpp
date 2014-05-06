@@ -1,11 +1,13 @@
 #include <stdio.h>
 
-void fizzbuzz(int i_number)
+void FizzBuzz(int nNumber)
 {
-    if(i_number%3 == 0) {
-        printf("fizz\n");
+    char cFizzStr[] = "fizz";
+    
+    if(nNumber%3 == 0) {
+        printf("%s\n", cFizzStr);
     }
     else {
-        printf("%d\n",i_number);
+        printf("%d\n", nNumber);
     }
 }
